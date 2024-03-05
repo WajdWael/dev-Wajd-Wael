@@ -1,4 +1,7 @@
 import { createServer, Model } from "miragejs"
+// import { projectType } from "./utils/projectType"
+
+// const server = createServer<Project>({
 
 createServer({
     models: {
@@ -209,12 +212,13 @@ createServer({
         this.passthrough("https://api.emailjs.com/api/v1.0/email/send")
 
         this.get("/projects", (schema) => {
-            return schema.projects.all()
+            return schema.all("project");
         })
         
         this.get("/projects/:id", (schema, request) => {
             const id = request.params.id
-            return schema.projects.find(id)
+            return schema.find("project", id);
         })
     }
 })
+
