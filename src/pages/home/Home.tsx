@@ -21,7 +21,7 @@ export default function Home() {
         </p>
         <div className="buttons">
           <Link to='web' className="box btn">Start</Link>
-          <Link to='/' className="box btn">Download CV</Link>
+          <a href='/assets/dev-wajd-wael-cv.pdf' download="CV" className="box btn">Download CV</a>
         </div>
       </div>
     </div>
