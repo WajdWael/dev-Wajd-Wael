@@ -2,7 +2,7 @@ import { createServer, Model } from "miragejs"
 import { Factory } from 'miragejs';
 
 export default Factory.extend({
-    class: 'Web Development',
+    class: 'Web Development', // or any other class value
     title: 'project',
 });
 
@@ -19,7 +19,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/tailwindcss-project3/",
                 description: "Tailwindcss is a utility-first CSS framework for rapidly building custom user interfaces low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.",
                 repoLink: "https://github.com/WajdWael/tailwindcss-project3",
-                image: "../src/pages/work/workimages/image0.png",
+                image: "/pages/work/workimages/image0.png",
                 readmore: "https://github.com/WajdWael/tailwindcss-project3/blob/master/README.md#portfolio-website-using-tailwindcss",
                 skills: [
                     "HTML5", "CSS3", "JS", "TailwindCSS"
@@ -34,7 +34,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/nicePricingCard/",
                 description: "Goal 🧠: This project for advanced CSS developers.",
                 repoLink: "https://github.com/WajdWael/nicePricingCard/",
-                image: "../src/pages/work/workimages/image1.png",
+                image: "/pages/work/workimages/image1.png",
                 readmore: "https://github.com/WajdWael/nicePricingCard/?tab=readme-ov-file#nice-pricing-card",
                 skills: [
                     "HTML5", "CSS3"
@@ -49,7 +49,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/Recipe-app/",
                 description: "Goals: 🧠 Learn APIs Fetch data Render data Filter data First touch with styled-components Adding Framer-motion",
                 repoLink: "https://github.com/WajdWael/Recipe-app",
-                image: "../src/pages/work/workimages/image2.png",
+                image: "/pages/work/workimages/image2.png",
                 readmore: "https://github.com/WajdWael/Recipe-app?tab=readme-ov-file#recipe-app-project-using-react",
                 skills: [
                     "React.JS", "APIs", "styled-components", "framer-motion"
@@ -64,7 +64,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/Menu-filter/",
                 description: "How to retrieve data? Work with arrays, Use array methods such as map(), forEach(), and reduce().",
                 repoLink: "https://github.com/WajdWael/Menu-filter",
-                image: "../src/pages/work/workimages/image3.png",
+                image: "/pages/work/workimages/image3.png",
                 readmore: "https://github.com/WajdWael/Menu-filter?tab=readme-ov-file#menu-filter",
                 skills: [
                     "HTML5", "CSS3", "JavaScript"
@@ -79,7 +79,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/Restaurant-reactApp/",
                 description: "Goals 🧠: Transform a Figma file into a functional website. Determine the best way to manage React files, components, and images. Find a solution to deal with a large number of images and ensure faster rendering. Understand the benefits of a single-page app.",
                 repoLink: "https://github.com/WajdWael/Restaurant-reactApp",
-                image: "../src/pages/work/workimages/image4.png",
+                image: "/pages/work/workimages/image4.png",
                 readmore: "https://github.com/WajdWael/Restaurant-reactApp?tab=readme-ov-file#restaurant-react-app",
                 skills: [
                     "React.JS", "CSS3", "JS", "JSON"
@@ -109,7 +109,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/tailwindcss-project/",
                 description: `The main goal of this project 🪐 is to focus on enhancing the style skills of a front-end developer by using a CSS framework with the "utility-first CSS framework" Tailwind CSS.`,
                 repoLink: "https://github.com/WajdWael/tailwindcss-project/",
-                image: "../src/pages/work/workimages/image5.png",
+                image: "/pages/work/workimages/image5.png",
                 readmore: "https://github.com/WajdWael/tailwindcss-project/?tab=readme-ov-file#bookmark-manager-a-tailwindcss-project",
                 skills: [
                     "HTML5", "CSS3", "JS", "TailwindCSS", "npm",
@@ -154,7 +154,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/tailwindcss-project2/",
                 description: `This project focuses on learning TailwindCSS 🎯.`,
                 repoLink: "https://github.com/WajdWael/tailwindcss-project2",
-                image: "../src/pages/work/workimages/image8.png",
+                image: "/pages/work/workimages/image8.png",
                 readmore: "https://github.com/WajdWael/tailwindcss-project2?tab=readme-ov-file#manage-company-website--a-tailwindcss-project",
                 skills: [
                     "HTML5", "CSS3", "TailwindCSS", "npm"
@@ -169,7 +169,7 @@ createServer({
                 demoLink: "https://airbnb-one-amber.vercel.app/",
                 description: `This project focuses on learning TailwindCSS 🎯.`,
                 repoLink: "https://github.com/WajdWael/Airbnb__",
-                image: "../src/pages/work/workimages/image9.png",
+                image: "/pages/work/workimages/image9.png",
                 readmore: "https://github.com/WajdWael/Airbnb__?tab=readme-ov-file#react-airbnb-clone",
                 skills: [
                     "React.JS", "TypeScript", "esLint", "vite"
@@ -184,7 +184,7 @@ createServer({
                 demoLink: "https://peppy-crisp-313b60.netlify.app/",
                 description: `Goals 🧠: If you are a beginner to ReactJS, this project will teach you how to use components and the idea behind them.`,
                 repoLink: "https://github.com/WajdWael/reactapp-test/",
-                image: "../src/pages/work/workimages/image10.png",
+                image: "/pages/work/workimages/image10.png",
                 readmore: "https://github.com/WajdWael/reactapp-test/?tab=readme-ov-file#huddle-community-platform---react-app",
                 skills: [
                     "React.JS", "styled-components",
@@ -199,7 +199,7 @@ createServer({
                 demoLink: "https://wajdwael.github.io/reviews-project/",
                 description: `This project focuses on learning TailwindCSS 🎯.`,
                 repoLink: "https://github.com/WajdWael/reviews-project",
-                image: "../src/pages/work/workimages/image11.png",
+                image: "/pages/work/workimages/image11.png",
                 readmore: "https://github.com/WajdWael/reviews-project?tab=readme-ov-file#testimonials---reviews-project",
                 skills: [
                     "HTML", "CSS", "JavaScript"

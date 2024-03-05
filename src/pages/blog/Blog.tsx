@@ -18,7 +18,7 @@ export default function Blog() {
   return (
     <main className="wrapper container">
       <Heading title='Web?' id="Blog"/>
-      <ImageStyles src="/src/assets/imgs-logos/chess.jpg" alt="Chess" />
+      <ImageStyles src="/assets/imgs-logos/chess.jpg" alt="Chess" />
       <MainContent>
         <Article className="m-0">
           <h1>Is owning a website a desire or a need?</h1>
@@ -52,7 +52,7 @@ export default function Blog() {
       </ButtonsReadmore>
       <SectionLogo>
         <div className="line"></div>
-        <img src="/src/assets/3.png" alt="logo" />
+        <img src="/assets/3.png" alt="logo" />
         <div className="content">
           <h3>Wajd Wael</h3>
           <h5>Front-end developer</h5>
