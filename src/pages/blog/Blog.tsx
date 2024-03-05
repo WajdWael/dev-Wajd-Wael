@@ -52,7 +52,7 @@ export default function Blog() {
       </ButtonsReadmore>
       <SectionLogo>
         <div className="line"></div>
-        <img src="/assets/3.png" alt="logo" />
+        <img src="/assets/images/3.png" alt="logo" />
         <div className="content">
           <h3>Wajd Wael</h3>
           <h5>Front-end developer</h5>
