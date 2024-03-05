@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import { styled } from "styled-components";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -6,12 +6,13 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import Heading from "./Heading";
 import emailjs from '@emailjs/browser'
 
+// Error: Parameter 'e' implicitly has an 'any' type.ts(7006) 
 export default function EmailForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
         const serviceId = import.meta.env.VITE_SERVICE;
         const templateId = import.meta.env.VITE_TEMPLATE_ID;
