@@ -45,15 +45,15 @@ export default function Work() {
       </Cards>
       ) : <h1>Loading ...</h1>}
       <Skills>
-        <img src="/public/imgs-logos/react-2.svg" alt="" />
-        <img src="/public/imgs-logos/styled-components-logo.png" alt="" />
-        <img className="rounded" src="/public/imgs-logos/logo-javascript.svg" alt="" />
-        <img className="rounded" src="/public/imgs-logos/typescript.svg" alt="" />
-        <img className="htmlcss" src="/public/imgs-logos/firebase-1.svg" alt="" />
-        <img className="htmlcss" src="/public/imgs-logos/html-1.svg" alt="" />
-        <img className="htmlcss" src="/public/imgs-logos/css-3.svg" alt="" />
-        <img src="/public/imgs-logos/tailwindcss.svg" alt="" />
-        <img src="/public/imgs-logos/npm.svg" alt="" />
+        <img src="/src/assets/imgs-logos/react-2.svg" alt="" />
+        <img src="/src/assets/imgs-logos/styled-components-logo.png" alt="" />
+        <img className="rounded" src="/src/assets/imgs-logos/logo-javascript.svg" alt="" />
+        <img className="rounded" src="/src/assets/imgs-logos/typescript.svg" alt="" />
+        <img className="htmlcss" src="/src/assets/imgs-logos/firebase-1.svg" alt="" />
+        <img className="htmlcss" src="/src/assets/imgs-logos/html-1.svg" alt="" />
+        <img className="htmlcss" src="/src/assets/imgs-logos/css-3.svg" alt="" />
+        <img src="/src/assets/imgs-logos/tailwindcss.svg" alt="" />
+        <img src="/src/assets/imgs-logos/npm.svg" alt="" />
       </Skills>
       <HrStyles />
       <EmailForm/>

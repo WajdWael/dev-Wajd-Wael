@@ -1,11 +1,14 @@
 import { createServer, Model } from "miragejs"
-// import { projectType } from "./utils/projectType"
+import { Factory } from 'miragejs';
 
-// const server = createServer<Project>({
+export default Factory.extend({
+    class: 'Web Development',
+    title: 'project',
+});
 
 createServer({
     models: {
-        projects: Model,
+        project: Model,
     },
 
     seeds(server) {
@@ -212,11 +215,11 @@ createServer({
         this.passthrough("https://api.emailjs.com/api/v1.0/email/send")
 
         this.get("/projects", (schema) => {
-            return schema.all("project");
+            return schema.all('project')
         })
         
         this.get("/projects/:id", (schema, request) => {
-            const id = request.params.id
+            const id = request.params.id;
             return schema.find("project", id);
         })
     }

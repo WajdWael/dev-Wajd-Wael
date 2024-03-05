@@ -54,15 +54,15 @@ export default function About() {
         <SkillStyle className='container'>
             <Heading title="Skills" id="Skills" />
             <div className="skills-box">
-                <img src="/public/imgs-logos/react-2.svg" alt="React Logo" />
-                <img src="/public/imgs-logos/styled-components-logo.png" alt="Styled-components Logo" />
-                <img className="rounded" src="/public/imgs-logos/logo-javascript.svg" alt="JavaScript logo" />
-                <img className="rounded" src="/public/imgs-logos/typescript.svg" alt="TypeScript logo" />
-                <img className="update-width" src="/public/imgs-logos/firebase-1.svg" alt="Firebase google-database logo" />
-                <img className="update-width" src="/public/imgs-logos/html-1.svg" alt="Html logo" />
-                <img className="update-width" src="/public/imgs-logos/css-3.svg" alt="Css logo" />
-                <img src="/public/imgs-logos/tailwindcss.svg" alt="TailwindCSS logo" />
-                <img src="/public/imgs-logos/npm.svg" alt="npm logo" />
+                <img src="/src/assets/imgs-logos/react-2.svg" alt="React Logo" />
+                <img src="/src/assets/imgs-logos/styled-components-logo.png" alt="Styled-components Logo" />
+                <img className="rounded" src="/src/assets/imgs-logos/logo-javascript.svg" alt="JavaScript logo" />
+                <img className="rounded" src="/src/assets/imgs-logos/typescript.svg" alt="TypeScript logo" />
+                <img className="update-width" src="/src/assets/imgs-logos/firebase-1.svg" alt="Firebase google-database logo" />
+                <img className="update-width" src="/src/assets/imgs-logos/html-1.svg" alt="Html logo" />
+                <img className="update-width" src="/src/assets/imgs-logos/css-3.svg" alt="Css logo" />
+                <img src="/src/assets/imgs-logos/tailwindcss.svg" alt="TailwindCSS logo" />
+                <img src="/src/assets/imgs-logos/npm.svg" alt="npm logo" />
             </div>
         </SkillStyle>
         <Article>
