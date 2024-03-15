@@ -6,7 +6,7 @@ export const HomeStyles = styled.main`
   display: flex;
   align-items: center;
   padding: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 10rem;
 
 
   @media (max-width: 768px) {
