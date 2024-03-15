@@ -6,7 +6,7 @@ import { FcWorkflow } from "react-icons/fc";
 
 export default function Footer() {
   return <Mainfooter>
-    <FooterStyles>
+    <FooterStyles className="container">
       <section className="footer--col1">
         <h4 className="footer--header">What does a frontend dev do?</h4>
         <p className="footer--col1-body">

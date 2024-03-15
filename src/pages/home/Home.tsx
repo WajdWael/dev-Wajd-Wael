@@ -4,7 +4,7 @@ import { DocTitle } from '../../utils/DocTitle'
 
 export default function Home() {
   DocTitle('Home - dev.Wajd')
-  return <HomeStyles>
+  return <HomeStyles className='container'>
     <div className="e-card playing">
       <div className="image"></div>
       <div className="wave"></div>

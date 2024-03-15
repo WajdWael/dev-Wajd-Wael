@@ -1,14 +1,12 @@
- import styled from "styled-components"
+import styled from "styled-components"
 
 export const HomeStyles = styled.main`
-  height: fit-content;
+  /* height: ; */
   overflow-x: hidden;
   display: flex;
   align-items: center;
   padding: 2rem;
   margin-bottom: 1rem;
-  /* position: relative; */
-
 
 
   @media (max-width: 768px) {
@@ -23,6 +21,10 @@ export const HomeStyles = styled.main`
     overflow: hidden;
     display: flex;
     align-items: center;
+  }
+
+  .waves{
+    position: relative;
   }
 
   .wave {
